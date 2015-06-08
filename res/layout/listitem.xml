@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="beforeDescendants"
+   
+    android:orientation="horizontal" >
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:orientation="vertical" >
+    
+ <TextView
+        android:id="@+id/tvName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="SSID"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvAddress"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_weight="1"
+        android:textColor="#0000ff"
+        android:text="MAC"
+        android:textSize="18sp" />
+   
+</LinearLayout> 
+    <Button
+        android:id="@+id/btn_deletewifi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="10dip"        
+        android:text="删除"/>
+
+</LinearLayout>
