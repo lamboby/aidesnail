@@ -1,4 +1,4 @@
-package com.itrustoor.boby;
+package com.itrustoor.boby.aidesnail;
 
 public class MyListItem {
 	private String name;

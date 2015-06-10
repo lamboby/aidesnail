@@ -1,4 +1,4 @@
-package com.itrustoor.boby;
+package com.itrustoor.boby.aidesnail;
 
 import java.util.List;
 import android.content.Context;

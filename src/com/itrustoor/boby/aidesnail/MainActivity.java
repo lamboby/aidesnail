@@ -1,4 +1,4 @@
-package com.itrustoor.boby;
+package com.itrustoor.boby.aidesnail;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -7,13 +7,17 @@ import android.os.Environment;
 import android.os.Handler;
 import android.os.Looper;
 import android.os.Message;
-import com.itrustoor.boby.HttpUtil.HttpCallbackListener;
+
+import com.itrustoor.boby.aidesnail.HttpUtil.HttpCallbackListener;
+
 import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
+
 import org.json.JSONArray;
 import org.json.JSONObject;
+
 import com.alibaba.sdk.android.oss.OSSService;
 import com.alibaba.sdk.android.oss.OSSServiceProvider;
 import com.alibaba.sdk.android.oss.callback.SaveCallback;
